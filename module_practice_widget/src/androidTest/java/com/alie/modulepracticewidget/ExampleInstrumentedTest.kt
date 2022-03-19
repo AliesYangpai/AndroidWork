@@ -1,4 +1,4 @@
-package com.alie.module_practice_widget
+package com.alie.modulepracticewidget
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

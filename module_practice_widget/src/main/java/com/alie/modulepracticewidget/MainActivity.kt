@@ -1,4 +1,4 @@
-package com.alie.module_practice_widget
+package com.alie.modulepracticewidget
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

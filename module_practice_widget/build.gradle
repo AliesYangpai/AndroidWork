@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.alie.module_practice_widget"
+        applicationId "com.alie.modulepracticewidget"
         minSdk 24
         targetSdk 31
         versionCode 1
@@ -28,6 +28,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
     }
 }
 
