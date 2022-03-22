@@ -52,12 +52,12 @@ class WorkWidget : AppWidgetProvider() {
     }
 
 
-    // todo 1.need to find out what happened in uri jump
+    // todo 1.need to find out what happened in uri jump 【fix】change Action to Intent.ACTION_VIEW
     // todo 2.need to find out no icon issue
     @SuppressLint("UnspecifiedImmutableFlag")
     private fun generatePendingIntent(resId: Int, context: Context): PendingIntent =
-        PendingIntent.getActivity(context.applicationContext, 0, Intent(context,TestActivity1::class.java).apply {
-            action = context.getString(R.string.widget_action)
+        PendingIntent.getActivity(context.applicationContext, 0, Intent().apply {
+            action = Intent.ACTION_VIEW
             data = Uri.parse(context.getString(R.string.widget_scheme)
                 .plus("://")
                 .plus(context.getString(R.string.widget_host))

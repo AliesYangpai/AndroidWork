@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">WidgetWork</string>
-    <string name="widget_action">com.alie.modulepracticewidget_widget_action</string>
     <string name="widget_scheme">scheme_widget_work</string>
     <string name="widget_host">host_widget_work</string>
     <string name="widget_port_1">1</string>

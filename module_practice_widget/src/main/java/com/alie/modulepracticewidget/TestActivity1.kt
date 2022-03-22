@@ -21,7 +21,7 @@ class TestActivity1 : AppCompatActivity() {
     private fun onWidgetWork(intent: Intent?) {
         intent?.let {
             when (it.action) {
-                this.getString(R.string.widget_action) -> {
+                Intent.ACTION_VIEW -> {
                     it.data?.let { uri ->
                         if (uri.scheme == this.getString(R.string.widget_scheme)
                             && uri.host == this.getString(R.string.widget_host)) {
