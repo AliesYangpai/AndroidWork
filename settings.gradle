@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidWork"
 include ':app'
 include ':module_practice_widget'
+include ':module_practice_util'
